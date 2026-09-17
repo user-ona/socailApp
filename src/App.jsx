@@ -30,7 +30,8 @@ let router=createBrowserRouter([
   {path:'postDetails/:id',element:<ProtectedRoute><PostDetails/></ProtectedRoute>},
   {path:'login',element:<AuthRoute><Login/></AuthRoute>}
 ]}
-])
+],{basename:'/socailApp'
+})
 
 
 
